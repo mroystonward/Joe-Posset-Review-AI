@@ -4,11 +4,11 @@ For full documentation and possible updates check out the source repo above.
 
 # Training Data
 
-The training data, in ```data/tinyshakespeare/input.txt```, consists of Joe's reviews from the Radio Free Midwich music blog. They were selected by searching "joe murray on", "posset on", and "rfm on" with false positive removed. These searches are unlikely to be perfect so some reviews may have been missed. The copy/pasted text was then edited to remove titles, headers, and band/purchase links. What's left is purely Joe's review text.
+The training data, in ```data/tinyshakespeare/input.txt```, consists of Joe's reviews from the Radio Free Midwich music blog. They were selected by searching "joe murray on", "posset on", and "rfm on" with false positives removed. These searches are unlikely to be perfect so some reviews may have been missed. The copy/pasted text was then edited to remove titles, headers, and band/purchase links. What's left is purely Joe's review text.
 
 # Usage Rights
 
-The text was sourced from https://radiofreemidwich.wordpress.com with permission for this specific use granted by Joe personally. No further rights to this text are granted or implied. Feel free to play around but don't be a c_nt.
+The text was sourced from https://radiofreemidwich.wordpress.com, with permission for this specific use granted by Joe personally. No further rights to this text are granted or implied. Feel free to play around but don't be a c_nt.
 
 The rest of the code falls under the MIT license as per the original authors.
 
@@ -33,7 +33,7 @@ This gives the opening words (in prime), with a length of 250 words and uses 'be
 
 ### Word-RNN (with beam search)
 ```
-# python sample.py --prime "Guns N' Roses - Appetite for Destruction" -n 100 --pick 2 --width 4
+# python sample.py --prime "Guns N' Roses - Appetite for Destruction" -n 150 --pick 2 --width 4
 
 Guns N' Roses - Appetite for Destruction
 

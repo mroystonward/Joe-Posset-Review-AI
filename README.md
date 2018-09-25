@@ -29,9 +29,6 @@ This gives the opening words (in prime), with a length of 250 words and uses 'be
 
 # Sample output
 
-
-
-### Word-RNN (with beam search)
 ```
 # python sample.py --prime "Guns N' Roses - Appetite for Destruction" -n 150 --pick 2 --width 4
 
